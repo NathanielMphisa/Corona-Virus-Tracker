@@ -5,6 +5,15 @@ public class LocationStats {
     private String state;
     private String country;
     private int totalCases;
+    private int difPrevDay;
+
+    public int getDifPrevDay() {
+        return difPrevDay;
+    }
+
+    public void setDifPrevDay(int difPrevDay) {
+        this.difPrevDay = difPrevDay;
+    }
 
     public String getState() {
         return state;
@@ -23,7 +32,7 @@ public class LocationStats {
     }
 
     public int getTotalCases() {
-        return this.totalCases;
+        return totalCases;
     }
 
     public void setTotalCases(int totalCases) {
